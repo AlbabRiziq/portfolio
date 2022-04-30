@@ -9,7 +9,6 @@ import logoJS from "./img/js.png";
 import logoCss from "./img/css.png";
 import Footer from "../Footer/Footer";
 import Projek from "../Projek/Projek";
-import Navbar from "../Navbar/Navbar";
 
 const Body = () => {
   const umur = () => {
