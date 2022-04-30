@@ -44,7 +44,6 @@ const Body = () => {
 
   return (
     <div className="bg-blue-50 w-[90%] max-w-4xl p-10 rounded-xl">
-      <Navbar />
       <div className="flex justify-center content-center flex-col">
         <div className="flex justify-evenly items-center flex-col md:flex-row text-center">
           <img src={muka} className="mb-8 rounded-full h-40 w-40" />
