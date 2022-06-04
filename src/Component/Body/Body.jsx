@@ -9,7 +9,8 @@ import logoJS from "./img/js.png";
 import logoCss from "./img/css.png";
 import Footer from "../Footer/Footer";
 import Projek from "../Projek/Projek";
-import Navbar from "../Navbar/Navbar";
+import logoTailwind from "./img/tailwind.png";
+import logoExpress from "./img/Expressjs.png";
 
 const Body = () => {
   const umur = () => {
@@ -32,7 +33,7 @@ const Body = () => {
       return hari;
     };
 
-    console.log(hariDalamTahun());
+    // console.log(hariDalamTahun());
     let satuHari = 24 * 60 * 60 * 1000;
     let tglLahir = new Date(2006, 9, 1);
     let hariIni = new Date();
@@ -88,13 +89,15 @@ const Body = () => {
         <Skill gambar={logoHtml} nama="HTML" />
         <Skill gambar={logoCss} nama="CSS" />
         <Skill gambar={logoJS} nama="JAVASCRIPT" />
-        <Skill gambar={logoReact} nama="REACT" />
+        <Skill gambar={logoReact} nama="REACT" />"
+        <Skill gambar={logoTailwind} nama="TAILWIND CSS" />
+        <Skill gambar={logoExpress} nama="EXPRESS JS" />
         {/* ///////////////////////////////////////////////////// */}
       </div>
 
       <div className="mt-10 mb-10">
         <p className="font-bold text-zinc-900 text-2xl text-center">
-          MY PROJECT
+          MY PROJECTS
         </p>
         <Projek />
       </div>
